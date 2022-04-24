@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;1,100&family=Work+Sans:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Sans:ital,wght@0,100;0,200;1,100&family=Work+Sans:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Sans:ital,wght@0,100;0,200;1,100&family=Roboto+Mono:wght@100&family=Work+Sans:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+
+
+}
+.website{
+    display: flex;
+}
+.navi{
+width: 15vw;
+font-family:'Fira Sans', sans-serif; 
+height: 100vw;
+font-style: bold;
+}
+
+.navi nav{
+    padding: 30px;
+    position: fixed;
+
+}
+.navi nav li{
+    font-size: 30px;
+    list-style: none;
+    padding: 33px;
+}
+.navi nav li a{
+    text-decoration: none;
+    
+}
+a:hover{
+    background-color: black;
+}
+.main{
+    width: 80vw ;
+    background-image: url("wp7453739.webp");
+    background-attachment: fixed;
+    background-size:cover;
+    height: 100vh;
+
+}
+.container{
+    
+    height: 78vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.home{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.hello{
+    background-color:  rgb(56, 61, 61);   
+    font-family:'Roboto Mono', monospace;
+    font-size: 50px;
+    font-style: normal;
+    text-align: center;
+    color: white;
+}
+.info{
+    background-color:rgb(56, 61, 61);
+    font-style: bold;
+    font-size: 53px;
+    text-align: left;
+    color: white;
+}
+.about{
+   background-color:rgb(56, 61, 61);
+   font-size: 30px;
+   text-align: left;
+   color: white;
+   font-family:'Roboto Mono', monospace;
+}
+#text {
+    padding-top: 10px;
+    text-align: left;
+
+}
+section{
+    width:100%;
+    float: left;
+    height: 100vh;
+    position: relative;
+    
+}
+
+h1{
+    padding-left: 20vw ;
+    color:white;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+h2{
+    padding-left: 20vw ;
+    color:white;
+    margin: 20px;
+    padding: 20px;
+}
+#about{
+    background-color:rgb(85, 121, 121);
+}
+#service{
+    background-color: rgb(41, 80, 90);
+}
+#contact{
+    background-color:rgb(33, 103, 121) ;
+}
+.education{
+    padding: 30px;
+    padding-left: 20vw ;
+    margin: 50px;
+    background-color: teal;
+    
+}
+.serv{
+    padding:30px;
+    padding-left: 20vw ;
+    margin: 50px;
+    
+
+}
+.quali{
+    padding: 30px;
+    font-size: 20px;
+    color: white;}
+.list{
+    padding: 15px;
+    font-size: 25px;
+    color: white;
+
+}
+.form{
+    padding: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    color: white;
+    padding-left: 20vw ;
+    margin: 50px;
+    
+}
+.form-text{
+    font-size: 15px;
+    padding-left: 10px;
+}
+.btn {
+    font-size: 20px;
+    padding-left: 10px;
+}
+
